@@ -5,6 +5,8 @@ def main():
     budget = Budget()
 
     while True:
+        budget.check_inactivity()
+        
         print("==== 간단 가계부 ====")
         print("1. 지출 추가")
         print("2. 지출 목록 보기")
