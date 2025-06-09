@@ -16,7 +16,7 @@ class Budget:
                     print("1부터 5 사이의 숫자를 입력하세요.")
             except ValueError:
                 print("정수로 입력해주세요.")
-        expense = Expense(today, category, description, amount)
+        expense = Expense(today, category, description, amount, satisfaction)
         self.expenses.append(expense)
         print("지출이 추가되었습니다.\n")
 
